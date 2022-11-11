@@ -31,7 +31,7 @@ local folder = "elipok_pack"
 local name = "Elipok Pack"
 local full_name = "Elipok Pack Weapon"
 local workshop = {}
-local license = "Commercial License"
+local license = "CC BY-SA 4.0"
 local version = 1.0
 Elipok_Pack = {}
 
