@@ -1,0 +1,26 @@
+// -- // -- // -- // -- // -- // -- // -- // -- // -- // -- //
+// Shared Console Commands
+// -- // -- // -- // -- // -- // -- // -- // -- // -- // -- //
+
+concommand.Add( "elipok_pack_info", function( ply, cmd, args )
+    print(" ")
+    print(" ")
+    print(" - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print(" -                                                           - ")
+    print(" - " .. LinvLib.CenterStr(57, "Elipok Pack Weapon") .. " - ")
+    print(" -                                                           - ")
+    print(" -                   Create by Linventif                     - ")
+    print(" -       Join my discord : https://linventif.fr/dicord       - ")
+    print(" -                                                           - ")
+    print(" - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print(" -                                                           - ")
+    print(" - " .. LinvLib.CenterStr(57, "Commands Availables") .. " - ")
+    print(" - " .. LinvLib.CenterStr(57, "elipok_pack_lang <lang>") .. " - ")
+    print(" - " .. LinvLib.CenterStr(57, "elipok_pack_add <steamid64> <wep>") .. " - ")
+    print(" - " .. LinvLib.CenterStr(57, "elipok_pack_remove <steamid64> <wep>") .. " - ")
+    print(" - " .. LinvLib.CenterStr(57, "elipok_pack_reset <steamid64> <wep>") .. " - ")
+    print(" -                                                           - ")
+    print(" - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+    print(" ")
+    print(" ")
+end )
